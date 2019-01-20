@@ -1,0 +1,32 @@
+body {
+    background: url('../images/dog.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: right;
+  width: 50%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#theSurvey {
+    border-radius: 25px;
+    /* background: rgb(104, 219, 156); */
+    background-image: linear-gradient(rgb(94, 255, 0), rgb(207, 240, 180));
+    padding: 20px;
+}
