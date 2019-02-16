@@ -59,7 +59,7 @@
         incorrect: 0,
 
         // establish timer
-        counter: 1000,
+        counter: 120,
 
         // create a function to have something be able to visually represent the timer countdown somewhere on the page
         countdown: function () {
